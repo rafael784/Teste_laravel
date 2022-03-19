@@ -1,0 +1,20 @@
+* text=auto
+
+*.blade.php diff=html
+*.css diff=css
+*.html diff=html
+*.md diff=markdown
+*.php diff=php
+/node_modules
+/public/hot
+/storage/*.key
+/vendor
+.env
+.env.backup
+.phpunit.result.cache
+docker-compose.override.yml
+homestead.json
+homestead.yaml
+
+/.github export-ignore
+CHANGELOG.md export-ignore
